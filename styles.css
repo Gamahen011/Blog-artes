@@ -1,0 +1,114 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 4vw;
+}
+
+h1 {
+    font-weight: bold;
+    text-decoration-line: underline;
+    margin-bottom: 48px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.menu {
+    background-color:  #eee;
+    margin: 4vw;
+}
+
+.titulo {
+    text-align: center;
+    padding: 2vw;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin-left: 20px;
+    width: 20vw;
+    margin: 2vw;
+}
+
+.card-img-top {
+    height: 20vw;
+}
+
+.processo {
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.processo img {
+    height: 10vw;
+    margin-right: 1vw;
+}
+
+.producao {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    width: 45vw;
+}
+
+.trabalho01{
+    background-color: #eee;
+    padding: 48px;
+}
+
+@media (max-width: 700px) {
+    .row .col {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 16px;
+        align-items: center;
+    }
+
+    body {
+        padding: 20px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 70vw;
+    }
+
+    .processo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 16px;
+        align-items: center;
+    }
+
+    .producao {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 16px;
+        align-items: center;
+    }
+}
